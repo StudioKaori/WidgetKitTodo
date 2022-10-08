@@ -19,7 +19,16 @@ struct ContentView: View {
           } label: {
             Text("\(todo.title): **\(todo.completed ? "completed" : "open")**")
           }
+          .buttonStyle(.plain)
         }// END: List
+        .navigationTitle("My Todos")
+        .task {
+          do {
+            todos = try await TodoService.shared.getAllTodos()
+          } catch {
+            print(error)
+          }
+        }
       }// END: navigation view
     }
 }
