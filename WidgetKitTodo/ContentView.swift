@@ -29,6 +29,21 @@ struct ContentView: View {
             print(error)
           }
         }
+        .sheet(item: $selectedTodo) { todo in
+          GroupBox {
+            VStack(alignment: .leading) {
+              Text(todo.title)
+                .font(.headline)
+              
+              Text(todo.completed ? "Completed" : "Open")
+                .font(.subheadline)
+            }
+          } label: {
+            Label("Todo #\(todo.id)", systemImage: "person")
+          }
+          .padding()
+          
+        }
       }// END: navigation view
     }
 }
