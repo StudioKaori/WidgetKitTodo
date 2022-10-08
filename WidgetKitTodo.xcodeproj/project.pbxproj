@@ -14,6 +14,7 @@
 		43FE62A328F1F53E007433B4 /* WidgetKitTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62A228F1F53E007433B4 /* WidgetKitTodoTests.swift */; };
 		43FE62AD28F1F53E007433B4 /* WidgetKitTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62AC28F1F53E007433B4 /* WidgetKitTodoUITests.swift */; };
 		43FE62AF28F1F53E007433B4 /* WidgetKitTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62AE28F1F53E007433B4 /* WidgetKitTodoUITestsLaunchTests.swift */; };
+		43FE62BC28F1F616007433B4 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62BB28F1F616007433B4 /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		43FE62A828F1F53E007433B4 /* WidgetKitTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidgetKitTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FE62AC28F1F53E007433B4 /* WidgetKitTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetKitTodoUITests.swift; sourceTree = "<group>"; };
 		43FE62AE28F1F53E007433B4 /* WidgetKitTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetKitTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43FE62BB28F1F616007433B4 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				43FE629128F1F53D007433B4 /* WidgetKitTodoApp.swift */,
 				43FE629328F1F53D007433B4 /* ContentView.swift */,
+				43FE62BB28F1F616007433B4 /* Todo.swift */,
 				43FE629528F1F53E007433B4 /* Assets.xcassets */,
 				43FE629728F1F53E007433B4 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43FE629428F1F53D007433B4 /* ContentView.swift in Sources */,
+				43FE62BC28F1F616007433B4 /* Todo.swift in Sources */,
 				43FE629228F1F53D007433B4 /* WidgetKitTodoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
