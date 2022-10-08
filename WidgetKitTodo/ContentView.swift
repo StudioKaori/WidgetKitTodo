@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State var todos
+  @State var todos: [Todo] = []
+  @State var selectedTodo: Todo?
+  
     var body: some View {
-      NavigationSplitView {
-        List
-      }
+      NavigationView {
+        List(todos) { todo in
+          Button {
+            selectedTodo = todo
+          } label: {
+            Text("\(todo.title): **\(todo.completed ? "completed" : "open")**")
+          }
+        }// END: List
+      }// END: navigation view
     }
 }
 
