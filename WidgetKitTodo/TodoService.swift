@@ -22,5 +22,12 @@ final class TodoService {
     
     let decoder = JSONDecoder()
     let result = try decoder.decode(T.self, from: data)
+    
+    return result
+  }
+  
+  func getAllTodos() async throws -> [Todo] {
+    let todos: [Todo] = try await fetch(from: "todos/")
+    return todos
   }
 }
