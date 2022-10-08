@@ -30,4 +30,9 @@ final class TodoService {
     let todos: [Todo] = try await fetch(from: "todos/")
     return todos
   }
+  
+  func getTodo(with id: Int) async throws -> Todo {
+    let todo: Todo = try await fetch(from: "todos/\(id)")
+    return todo
+  }
 }
