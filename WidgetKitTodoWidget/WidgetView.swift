@@ -8,7 +8,7 @@
 import WidgetKit
 import SwiftUI
 
-struct WidgetView : View {
+struct WidgetView: View {
     var entry: Provider.Entry
 
     var body: some View {
