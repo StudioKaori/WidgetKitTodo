@@ -21,6 +21,8 @@
 		43FE62CB28F2AF79007433B4 /* WidgetKitTodoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62CA28F2AF79007433B4 /* WidgetKitTodoWidget.swift */; };
 		43FE62CD28F2AF7A007433B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FE62CC28F2AF7A007433B4 /* Assets.xcassets */; };
 		43FE62D128F2AF7A007433B4 /* WidgetKitTodoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 43FE62C328F2AF79007433B4 /* WidgetKitTodoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		43FE62D928F2B230007433B4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62D828F2B230007433B4 /* Provider.swift */; };
+		43FE62DB28F2B275007433B4 /* SimpleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62DA28F2B275007433B4 /* SimpleEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		43FE62CA28F2AF79007433B4 /* WidgetKitTodoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetKitTodoWidget.swift; sourceTree = "<group>"; };
 		43FE62CC28F2AF7A007433B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43FE62CE28F2AF7A007433B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43FE62D828F2B230007433B4 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		43FE62DA28F2B275007433B4 /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				43FE62CA28F2AF79007433B4 /* WidgetKitTodoWidget.swift */,
+				43FE62DA28F2B275007433B4 /* SimpleEntry.swift */,
+				43FE62D828F2B230007433B4 /* Provider.swift */,
 				43FE62CC28F2AF7A007433B4 /* Assets.xcassets */,
 				43FE62CE28F2AF7A007433B4 /* Info.plist */,
 			);
@@ -401,6 +407,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FE62DB28F2B275007433B4 /* SimpleEntry.swift in Sources */,
+				43FE62D928F2B230007433B4 /* Provider.swift in Sources */,
 				43FE62CB28F2AF79007433B4 /* WidgetKitTodoWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
