@@ -8,6 +8,7 @@
 import WidgetKit
 
 struct Provider: TimelineProvider {
+  
     func placeholder(in context: Context) -> SimpleEntry {
         SimpleEntry(date: Date())
     }

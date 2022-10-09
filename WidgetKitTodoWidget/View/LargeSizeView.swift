@@ -12,6 +12,39 @@ struct LargeSizeView: View {
   var entry: SimpleEntry
   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      VStack {
+        HStack(spacing: 16) {
+          Text("My Todo")
+          
+          Text(Date.now, format: .dateTime)
+          
+          Spacer()
+        }
+        .padding(8)
+        .background(.blue)
+        .foregroundColor(.white)
+        .clipped()
+        .shadow(radius: 5) // without clipped modifier, the shadow will be applied to each individual views
+        
+        ForEach(0..<10, id: \.self) { _ in
+          HStack {
+            Circle()
+              .stroke(lineWidth: 2)
+              .frame(width: 30, height: 30)
+              .overlay {
+                if true {
+                  Image(systemName: "checkmark")
+                }
+              }
+            
+            Text("todo title")
+            
+            Spacer()
+          } // END: Hstack
+          .padding()
+          
+          Divider()
+        }
+      }
     }
 }
