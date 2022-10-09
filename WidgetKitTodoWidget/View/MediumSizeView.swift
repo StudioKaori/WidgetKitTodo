@@ -5,16 +5,36 @@
 //  Created by Kaori Persson on 2022-10-09.
 //
 
+import WidgetKit
 import SwiftUI
 
 struct MediumSizeView: View {
+  var entry: SimpleEntry
+  
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct MediumSizeView_Previews: PreviewProvider {
-    static var previews: some View {
-        MediumSizeView()
+      GroupBox {
+        HStack {
+          Image(systemName: "person")
+            .resizable()
+            .scaledToFit()
+            .foregroundColor(.secondary)
+          
+          Divider()
+          
+          VStack(alignment: .leading) {
+            Text("Todo title")
+              .font(.headline)
+            
+            Text("Completed")
+              .font(.subheadline)
+          }
+          
+          Spacer()
+        }
+        .padding()
+        
+      } label: {
+        Label("My Todos", image: "list.dash")
+      }
     }
 }
