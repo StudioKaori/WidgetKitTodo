@@ -9,9 +9,19 @@ import WidgetKit
 import SwiftUI
 
 struct WidgetView: View {
+  // read the size of widget
+  @Environment(\.widgetFamily) var widgetFamily
+  
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+      switch widgetFamily {
+      case .systemMedium:
+        
+      case .systemLarge:
+        
+      default:
+        Text("Not implemented!")
+      }
     }
 }
