@@ -22,7 +22,7 @@ struct MediumSizeView: View {
           Divider()
           
           VStack(alignment: .leading) {
-            Text("Todo title")
+            Text("My Todo title")
               .font(.headline)
             
             Text("Completed")
@@ -34,7 +34,7 @@ struct MediumSizeView: View {
         .padding()
         
       } label: {
-        Label("My Todos", image: "list.dash")
+        Label("My Todos", systemImage: "list.dash")
       }
     }
 }

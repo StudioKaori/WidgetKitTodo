@@ -26,7 +26,7 @@ struct LargeSizeView: View {
         .clipped()
         .shadow(radius: 5) // without clipped modifier, the shadow will be applied to each individual views
         
-        ForEach(0..<10, id: \.self) { _ in
+        ForEach(0..<6, id: \.self) { _ in
           HStack {
             Circle()
               .stroke(lineWidth: 2)
