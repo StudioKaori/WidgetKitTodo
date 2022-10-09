@@ -143,9 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				43FE629128F1F53D007433B4 /* WidgetKitTodoApp.swift */,
-				43FE629328F1F53D007433B4 /* ContentView.swift */,
-				43FE62BB28F1F616007433B4 /* Todo.swift */,
-				43FE62BD28F1F685007433B4 /* TodoService.swift */,
+				43FE62D728F2AFAF007433B4 /* View */,
+				43FE62D628F2AFA8007433B4 /* Data */,
 				43FE629528F1F53E007433B4 /* Assets.xcassets */,
 				43FE629728F1F53E007433B4 /* Preview Content */,
 			);
@@ -194,6 +193,23 @@
 				43FE62CE28F2AF7A007433B4 /* Info.plist */,
 			);
 			path = WidgetKitTodoWidget;
+			sourceTree = "<group>";
+		};
+		43FE62D628F2AFA8007433B4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				43FE62BB28F1F616007433B4 /* Todo.swift */,
+				43FE62BD28F1F685007433B4 /* TodoService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		43FE62D728F2AFAF007433B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43FE629328F1F53D007433B4 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
