@@ -27,21 +27,23 @@ struct LargeSizeView: View {
         .shadow(radius: 5) // without clipped modifier, the shadow will be applied to each individual views
         
         ForEach(0..<6, id: \.self) { _ in
-          HStack {
-            Circle()
-              .stroke(lineWidth: 2)
-              .frame(width: 30, height: 30)
-              .overlay {
-                if true {
-                  Image(systemName: "checkmark")
-                }
-              }
-            
-            Text("todo title")
-            
-            Spacer()
-          } // END: Hstack
-          .padding()
+					Link(destination: URL(string: "")!) {
+						HStack {
+							Circle()
+								.stroke(lineWidth: 2)
+								.frame(width: 30, height: 30)
+								.overlay {
+									if true {
+										Image(systemName: "checkmark")
+									}
+								}
+							
+							Text("todo title")
+							
+							Spacer()
+						} // END: Hstack
+						.padding(.horizontal)
+					} // END: Link
           
           Divider()
         }
