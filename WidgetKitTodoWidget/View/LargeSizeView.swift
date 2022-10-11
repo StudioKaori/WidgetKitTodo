@@ -27,7 +27,7 @@ struct LargeSizeView: View {
         .shadow(radius: 5) // without clipped modifier, the shadow will be applied to each individual views
         
         ForEach(0..<6, id: \.self) { _ in
-					Link(destination: URL(string: "https://zenn.dev/fun4/articles/7599f65ca5d589")!) {
+					Link(destination: URL(string: "myapp://todo/1")!) {
 						HStack {
 							Circle()
 								.stroke(lineWidth: 2)

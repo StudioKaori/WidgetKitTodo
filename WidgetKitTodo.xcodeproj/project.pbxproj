@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		43502FDD28F2DCDF0051DB6A /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43502FDC28F2DCDF0051DB6A /* Provider.swift */; };
+		43C5957A28F5A4E200C6ABAE /* TodoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62BD28F1F685007433B4 /* TodoService.swift */; };
+		43C5957B28F5A65D00C6ABAE /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE62BB28F1F616007433B4 /* Todo.swift */; };
 		43FE629228F1F53D007433B4 /* WidgetKitTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE629128F1F53D007433B4 /* WidgetKitTodoApp.swift */; };
 		43FE629428F1F53D007433B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE629328F1F53D007433B4 /* ContentView.swift */; };
 		43FE629628F1F53E007433B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FE629528F1F53E007433B4 /* Assets.xcassets */; };
@@ -427,7 +429,9 @@
 				43FE62DD28F2B2DE007433B4 /* WidgetView.swift in Sources */,
 				43FE62DB28F2B275007433B4 /* SimpleEntry.swift in Sources */,
 				43FE62DF28F2B5EA007433B4 /* MediumSizeView.swift in Sources */,
+				43C5957B28F5A65D00C6ABAE /* Todo.swift in Sources */,
 				43FE62E128F2B5F9007433B4 /* LargeSizeView.swift in Sources */,
+				43C5957A28F5A4E200C6ABAE /* TodoService.swift in Sources */,
 				43502FDD28F2DCDF0051DB6A /* Provider.swift in Sources */,
 				43FE62CB28F2AF79007433B4 /* WidgetKitTodoWidget.swift in Sources */,
 			);
