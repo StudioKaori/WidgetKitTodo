@@ -16,7 +16,7 @@ struct WidgetKitTodoWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             WidgetView(entry: entry)
         }
-        .supportedFamilies([.systemMedium, .systemLarge])
+        .supportedFamilies([.systemLarge])
         .configurationDisplayName("My todos")
         .description("View your latest todo(s).")
     }
